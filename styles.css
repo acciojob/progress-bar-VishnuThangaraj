@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+.circle_holder {
+  display: flex;
+  flex-direction: row;
+}
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.active {
+  border: 2px solid blue;
+}
